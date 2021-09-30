@@ -1,0 +1,45 @@
+#Heading{
+    color: rgb(3, 73, 73);
+    font-size: 75px;
+    text-align: center;
+    font-weight: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 200px;
+    cursor:default;
+} 
+
+#Subheading{
+    color: rgb(3, 73, 73);
+    font-size: 25px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 100px;
+    cursor:default;
+}
+
+.ExploreButton{
+    margin-top: 30px !important;
+    height:55px;
+    width:200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-color: rgb(25, 104, 128); */
+    background-image: linear-gradient(to right, rgb(37, 151, 185) , rgb(75, 199, 174));
+    border-radius: 10px;
+}
+
+.ExploreButton:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px){
+    #Heading{
+        font-size: 50px;
+    }
+    
+}

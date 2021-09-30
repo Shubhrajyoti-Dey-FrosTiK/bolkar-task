@@ -1,0 +1,145 @@
+.Block{
+    /* position: absolute; */
+    margin: 3%;
+    /* line-height: 10px; */
+    border-radius: 50%;
+    font-size: larger;
+    /* background-color: aqua; */
+    text-align: center;
+    /* display:none; */
+    /* z-index: -1; */
+}
+
+.Background{
+    background-image: linear-gradient(to right, rgb(207, 230, 223) , white);
+    display:flex;
+    width : 100vw;
+    position : absolute;
+    z-index : -1;
+    justify-content : center;
+
+}
+
+.A1{
+    margin-top: 700px;
+    width:150px;
+    height: 150px;
+}
+.A2{
+    margin-top: 900px;
+    width:75px;
+    height: 75px;
+}
+
+.Pic{
+    padding: 5px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    background-size:contain;
+    /* background: no-repeat; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 420px){
+    .Item1{
+        display : visible;
+    }
+    .Item2{
+        display : visible;
+    }
+    .Item3{
+        display : none;
+    }
+    .Item4{
+        display : none;
+    }
+    .Item5{
+        display : none;
+    }
+    .Item6{
+        display : none;
+    }
+    .Item7{
+        display : none;
+    }
+}
+
+
+@media screen and (max-width: 720px){
+    .Item1{
+        display : visible;
+    }
+    .Item2{
+        display : visible;
+    }
+    .Item3{
+        display : visible;
+    }
+    .Item4{
+        display : none;
+    }
+    .Item5{
+        display : none;
+    }
+    .Item6{
+        display : none;
+    }
+    .Item7{
+        display : none;
+    }
+}
+
+
+@media screen and (max-width: 1020px){
+    .Item1{
+        display : visible;
+    }
+    .Item2{
+        display : visible;
+    }
+    .Item3{
+        display : visible;
+    }
+    .Item4{
+        display : visible;
+    }
+    .Item5{
+        display : none;
+    }
+    .Item6{
+        display : none;
+    }
+    .Item7{
+        display : none;
+    }
+}
+
+
+@media screen and (max-width: 1200px){
+    .Item1{
+        display : visible;
+    }
+    .Item2{
+        display : visible;
+    }
+    .Item3{
+        display : visible;
+    }
+    .Item4{
+        display : visible;
+    }
+    .Item5{
+        display : visible;
+    }
+    .Item6{
+        display : none;
+    }
+    .Item7{
+        display : none;
+    }
+}
+
+.Item7{
+    display: none;
+}

@@ -18,22 +18,22 @@ export default function Block() {
     return (
         <>
             <div className="Background" >
-                <div className="Block Item1 A1 Pic" style={{marginTop: "650px"}}>
+                <div className="Block Item1 A1 Pic">
                     
                 </div>
-                <div className="Block Item2 A2 Pic" style={{marginTop: "750px"}}>
+                <div className="Block Item2 A2 Pic">
                     
                 </div>
-                <div className="Block Item3 A1 Pic" style={{marginTop: "750px"}}>
+                <div className="Block Item3 A1 Pic">
                     
                 </div>
-                <div className="Block Item4 A2 Pic" style={{marginTop: "650px"}}>
+                <div className="Block Item4 A2 Pic">
                     
                 </div>
                 <div className="Block Item5 A1 Pic">
                     
                 </div>
-                <div className="Block Item6 A2 Pic" style={{marginTop: "600px"}}>
+                <div className="Block Item6 A2 Pic">
                     
                 </div>
             </div>

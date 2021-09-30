@@ -12,8 +12,9 @@
 
 .Background{
     background-image: linear-gradient(to right, rgb(207, 230, 223) , white);
-    display:flex;
+    /* display:flex; */
     width : 100vw;
+    height: 110vh;
     position : absolute;
     z-index : -1;
     justify-content : center;
@@ -21,35 +22,103 @@
 }
 
 .A1{
-    margin-top: 700px;
-    width:150px;
-    height: 150px;
+    /* margin-top: 700px; */
+    /* margin-top: 90vh; */
+    /* width:150px;
+    height: 150px; */
+    width: 10vw;
+    height: 10vw;
 }
 .A2{
     margin-top: 900px;
-    width:75px;
-    height: 75px;
+    /* width:75px;
+    height: 75px; */
+    width: 7vw;
+    height: 7vw;
 }
+
+
+@-webkit-keyframes fadeIn { 
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 0.3; }
+    60% { opacity: 0.5; }
+    80% { opacity: 0.9; }
+    100% { opacity: 1; }
+  }
+  
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    40% { opacity: 0.3; }
+    60% { opacity: 0.5; }
+    80% { opacity: 0.9; }
+    100% { opacity: 1; }
+  }
 
 .Pic{
     padding: 5px;
+    position: absolute;
     border-style: solid;
     border-width: 10px;
     border-color: white;
     background-size:contain;
     /* background: no-repeat; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-name: fadeIn;
+    animation-duration: 1s;
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 1020px){
     .Item1{
         display : visible;
+        margin-left: 10%;
+        margin-top: 65vh;
     }
     .Item2{
         display : visible;
+        margin-left: 40%;
+        margin-top: 75vh;
     }
     .Item3{
+        display : visible;
+        margin-left: 60%;
+        margin-top: 85vh;
+    }
+    .Item4{
+        display : visible;
+        margin-left: 80%;
+        margin-top: 70vh;
+    }
+    .Item5{
         display : none;
+    }
+    .Item6{
+        display : none;
+    }
+    .Item7{
+        display : none;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .Item1{
+        display : visible;
+        margin-left: 10%;
+        margin-top: 65vh;
+    }
+    .Item2{
+        display : visible;
+        margin-left: 40%;
+        margin-top: 75vh;
+    }
+    .Item3{
+        display : visible;
+        margin-left: 60%;
+        margin-top: 85vh;
     }
     .Item4{
         display : none;
@@ -69,12 +138,20 @@
 @media screen and (max-width: 720px){
     .Item1{
         display : visible;
+        margin-left: 10%;
+        margin-top: 80vh;
+        width: 100px;
+        height: 100px;
     }
     .Item2{
         display : visible;
+        margin-left: 60%;
+        margin-top: 85vh;
+        width: 50px;
+        height: 50px;
     }
     .Item3{
-        display : visible;
+        display : none;
     }
     .Item4{
         display : none;
@@ -90,50 +167,36 @@
     }
 }
 
-
-@media screen and (max-width: 1020px){
+@media screen and (min-width: 1020px){
     .Item1{
         display : visible;
+        margin-left: 10%;
+        margin-top: 65vh;
     }
     .Item2{
         display : visible;
+        margin-left: 25%;
+        margin-top: 75vh;
     }
     .Item3{
         display : visible;
+        margin-left: 35%;
+        margin-top: 85vh;
     }
     .Item4{
         display : visible;
-    }
-    .Item5{
-        display : none;
-    }
-    .Item6{
-        display : none;
-    }
-    .Item7{
-        display : none;
-    }
-}
-
-
-@media screen and (max-width: 1200px){
-    .Item1{
-        display : visible;
-    }
-    .Item2{
-        display : visible;
-    }
-    .Item3{
-        display : visible;
-    }
-    .Item4{
-        display : visible;
+        margin-left: 50%;
+        margin-top: 70vh;
     }
     .Item5{
         display : visible;
+        margin-left: 60%;
+        margin-top: 75vh;
     }
     .Item6{
-        display : none;
+        display : visible;
+        margin-left: 75%;
+        margin-top: 65vh;
     }
     .Item7{
         display : none;
